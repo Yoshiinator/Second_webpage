@@ -1,0 +1,139 @@
+h2 {
+   color: black;
+   font-family: Verdana;
+   font-size: 20pt;
+}
+
+body {
+   background-color: black;
+   position: relative;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.sidebar {
+   right: 0;
+   top: 0;
+   width: 10%;
+   height: 100vh;
+   background-color: blanchedalmond;
+   text-align: right;
+   padding-right: 30px;
+}
+
+#sidebarlist li {
+   margin-bottom: 15px;
+   line-height: 1.8;
+}
+
+#sidebarlist a {
+   color:black;
+   text-decoration: none;
+}
+
+.pictures {
+   flex: 1;
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   gap: 15px;
+   padding: 20px;
+   overflow-y: auto;
+}
+
+.pictures img {
+   width: 100%;
+   height: auto;
+   object-fit: cover;
+   border-radius: 8px;
+}
+
+.header {
+   background-color: darkgrey;
+   padding: 10px 0;
+   align-self: stretch;
+}
+
+.header ul {
+   list-style: none;
+   display: flex;
+   justify-content: center;
+   margin: 0;
+   padding: 0;
+   gap: 50px;
+}
+
+.header a {
+   color: white;
+   font-weight: bold;
+   text-decoration: none;
+}
+
+.Academic {
+   flex: 1;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.documents {
+   flex: 1;
+   display: flex;
+   align-self: stretch;
+}
+
+.documents embed {
+   width: 100%;
+   height: 100%;
+   border: none;
+}
+
+.Contact {
+   flex: 1;
+}
+
+.Contact {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 300px auto;
+   padding: 50px;
+   margin: 20px auto;
+}
+
+.Contact p {
+   color:chartreuse;
+   font-family: "Papyrus", fantasy;
+   font-size: 20pt;
+}
+
+.Aboutme {
+   flex: 1;
+}
+
+.Aboutme {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin: 0 auto;
+   text-align: center;
+   width: 700px;
+   padding: 50px;
+   margin: 20px;
+}
+
+.Aboutme p {
+   color:white;
+   font-family:'Times New Roman';
+   font-size: 15pt;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+}
